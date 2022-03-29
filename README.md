@@ -9,7 +9,7 @@ The code size is about 1300 bytes.
 
 The perfomance on STM-32F105 (36MHz, running from flash with two waitstates):
 
-|size | time, ms |
+|data size, bytes | time, ms |
 |---|---|
 |1024 | 1|
 |2048 | 2|
