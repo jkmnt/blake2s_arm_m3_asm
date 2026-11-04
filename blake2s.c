@@ -59,7 +59,7 @@ void blake2s_ex(uint8_t hash[32], uint32_t hashlen,
     if (saltlen)
         memcpy(param->salt, salt, saltlen);
     if (person)
-        memcpy(param->salt, person, personlen);
+        memcpy(param->personal, person, personlen);
 
     for (int i = 0; i < 8; i++)
         ctx.h[i] ^= blake2s_ivs[i];
